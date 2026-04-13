@@ -1,1 +1,16 @@
-
+{
+  "name": "longform-ffmpeg-server",
+  "version": "1.0.0",
+  "description": "FFmpeg assembly server for long-form historical YouTube pipeline",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
